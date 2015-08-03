@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\Win32_OculusRoomTiny.cpp" />
+    <ClCompile Include="..\src\OculusRoomModel.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RenderTiny_D3D9_Device.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Win32_OculusRoomTiny_Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Util">
+      <UniqueIdentifier>{891f742b-13d6-4b20-9bc7-198a0c163904}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\RenderTiny_D3D9_Device.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
